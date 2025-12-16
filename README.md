@@ -11,6 +11,8 @@ On Debian, Ubuntu, etc you can simply **install the [.deb package](https://githu
 
 On other distros you can execute the UE4_Manager.py in the source folder with python3. Take a look at the dependencies.txt file in the source folder and install the packages you haven't installed already. You must change into the source directory `cd /path/to/UE4-Manager-for-Linux/source` and after this you can run `python3 UE4_Manager.py`. You **can not run python3 /path/to/UE4-Manager-for-Linux/source/UE4_Manager.py**, because the paths in the UE4_Manager.py for the ue4-manager.ui, ue4-installer.ui and Icon.png won't work in this case. But you can change this by chaning the paths of the loadUi() / QtGui.QIcon() to the absolute path of the UE4Manager folder.
 
+On Arch Linux use "makepkg" command to install a package from releases.
+
 ## Remove
 
 `sudo apt remove ue4manager` (or delete source folder).
